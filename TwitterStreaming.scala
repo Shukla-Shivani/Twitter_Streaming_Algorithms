@@ -7,10 +7,10 @@ import scala.util.Random.{nextFloat, nextInt}
 
 object TwitterStreaming {
 
-  val consumer_key = "8tyAPkmFXQRSRPV9ixOdmNVjd"
-  val consumer_secret = "3k8nbLloQhT9r5pl5x8nwVYEdfGvbxShkhZ8jtaqucCbARw7y0"
-  val key = "794908099693793280-wXoD1jELXiHIyxsEbJPrk7mR15hK8Ar"
-  val secret = "8gD3xJRllG2rbyJclKeGc1kWjSM7xWH3E4lVrtCEaN7Gg"
+  val consumer_key = "your_consumer_key"
+  val consumer_secret = "your_consumer_secret"
+  val key = "API_key"
+  val secret = "API_secret"
   var current_reservoir_length = 0
   val reservoir_max_length = 100
   var total_tweets_length = 0
